@@ -6,7 +6,7 @@ var nodemailer = require('nodemailer');
 const dotenv=require("dotenv")
 app.use(cors(
     {
-        origin: 'http://localhost:4000'      
+        origin: '*'      
       }
 ))
 app.use(express.json())
